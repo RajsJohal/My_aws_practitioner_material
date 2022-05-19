@@ -1,0 +1,14 @@
+# Benefits of the AWS Cloud
+- Trade upfrint expense for variable expense:
+    - Instead of investing heavily in data centres and servers before you know how you're going to use them, you can pay only when you consume computing resources.
+- Benefit from massive economies of scale:
+    - Usage from hundreds of thousands of customers aggregates in the cloud, providers such as AWS can achieve higher economies of scale. Economies of scale translate into lower pay-as-you-go prices. 
+- Stop guessing capacity:
+    - Launch EC2 instances when needed and pay only for the compute time you use. Instead of paying for resources that are unused or dealing with limited capacity, you can access only the capacity that you need and scale in or out in response to demand.
+- Increase speed and agility:
+    - Flexibility of cloud computing makes it easier for you to develop and deploy applications
+    - Flexibility also provides your development teams with more time to experiment and innovate.
+- Stop spending money running and maintaining data centres
+    - Focus less on managing and spending money on servers and more on applications and customers.
+- Go global in minutes
+    - AWS Cloud global footprint enables you to quickly deploy applications to customers around the world, while providing low latency.

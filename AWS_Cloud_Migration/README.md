@@ -1,0 +1,102 @@
+# AWS Cloud Adoption Framework (AWS CAF)
+- Organizes guidance into 6 areas of focus called Perspectives. 
+    - Busines Perspective:
+        - Ensures IT aligns with business needs and that IT investments link to key business results.
+        - Creates a strong business case for cloud adoption and proritize cloud adoption initiatives. Ensure that your business strategies and goals align with your IT strategies and goals.
+        - Common roles in the business perspective include:
+            - Business Managers
+            - Finance Managers
+            - Budget Owners
+            - Strategy Stakeholders
+    - People Perspective:
+        - Supports development of an organization-wide change management strategy for successful cloud adoption.
+        - Used to evaluate organizational structures and roles, new skill and process requirements, and identify gaps. Helps prioritize training, staffing and organizational changes. 
+        - Common roles include:
+            - Human Resources
+            - Staffing
+            - People Managers 
+    - Governance Perspective:
+        - Focus on the skills and processes to align IT strategy and business strategy. This ensures that you maximize the business value and minimize risks. 
+        - Governance Perspective allows you to understand how to update the staff skills and processes necessary to ensure business governance in the cloud. Manage and measure cloud investments to evaluate business outcomes. 
+        - Common roles include:
+            - Cheif Information Officer
+            - Program Managers
+            - Enterprise Architects
+            - Business Analysts
+            - Portfolio Managers
+    - Platform Perspective:
+        - Includes the principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
+        - Use a variety of architectural models to understand and communicate the structure of IT systems and their relationships. Describe the architecture of the target state environment in detail.
+        - Common roles include:
+            - Chief Technology Officer (CTO)
+            - IT Managers
+            - Solutions Architects
+    - Security Perspective:
+        - Ensures that the organization meets security objectives for visibility, auditability, control and agility.
+        - Use the AWS CAF to structure the selection and implementation of security controls that meet the organization's needs.
+        - Common roles include:
+            - Chief Information Security Officer (CISO)
+            - IT Security Managers
+            - IT Security Analysts
+    - Operations Perspective:
+        - Helps you enable, run, use, operate, and recover IT workloads to the level agreed upon with your business stakeholders. 
+        - Define how day-to-day, quarter-to-quarter, and year-to-year business is conducted. Align with and support the operations of the business. The AWS AF helps these stakeholders define current operating procedures and identify the process changes and training needed to implement sucessful cloud apotion. 
+        - Common roles in the operations perspective include:
+            - IT Operations Managers
+            - IT Support Managers
+
+## 6 Stages of Migration
+- Rehosting:
+    - Also known as "lift-and-shift" involves moving applications without changes.
+    - Majority of applications are rehosted in the event of a large legacy migration. 
+- Replatforming:
+    - Also known as "lift, tinker, and shift", it involves making a few cloud optimizations to realize a tangible benefit. Optimization is achieved without changing the core architecture of the application. 
+- Refactoring/re-architecturing:
+    - Involves reimagining how an application is architectured and developed by using cloud-native features.
+    - Refactoring is driven by a strong business need to add features, scale, or performance that would otherwise be difficult to achieve in the application's existing environment.
+- Repurchasing:
+    - Involves moving from a traditional license to a software-as-a-service model. 
+    - For example, a business might choose to implement the repurchasing strategy by migrating from a customer relationship management (CRM) system to Saleforce.com
+- Retaining:
+    - Consists of keeping applications that are critical for the business in the source environment. This might include applications that require major refactoring before they can be migrated, or, work that can be postponed until a later time.
+- Retiring
+    - The process of removing applications that are no longer needed.
+
+## AWS Snow Family Members
+- A collection of physical devices that help to physically transport upto exabytes of data into and out of AWS.
+- Composed of 
+    - AWS Snowcone:
+        - Small, rugged, and secure edge computing and data transfer device.
+        - Features 2 CPUs, 4 GB of Memory, and 8TB of usable storage.
+    - AWS Snowball:
+        - Two types of devices:
+            - Snowball Edge Storage Optimized devices are well suited for large-scale data migrations and recurring transfer workflows, in addition to local computing with higgher capacity needs.
+                - Storage: 80 TB HDD capacity for block volumes and Amazon S3 compatible object storage, and 1 TB SSD for block volumes.
+                - Compute: 40vCPUs, 80 GiB of memory to support Amazon EC2 sbe1 instances.
+            - Snowball Edge Compute Optimized provides powerful computing resources for use cases such as machine learning, full motion video analysis, analytsics and local computing stacks.
+                - Storage: 42 TB usable HDD capacity for Amazon S3 compatible object storage or Amazon EBS compatible block volumes and 7.68 TB of usable NVMe SSD capacity for Amazon EBS compatible block volumes. 
+                - Compute: 52 vCPUs, 208 GiB of memory, and an optional NVIDIA Tesla v100 GPU. Devices run Amazon EC2 sbe-c and sbe-g instances, which are equivalent to C5, M5a, G3, and P3 instances.
+    - AWS Snowmobile:
+        - An exabyte-scale data transfer service used to move large amounts of data to AWS.
+        - Can transfer upto 100 petabytes of data per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi trailer truck. 
+
+## Innovate with AWS Services
+- Focus on the desired outcomes
+- If you can clearly articulate the following then you are properly equipped to drive innovation in the cloud.
+    - The current state
+    - The desired state
+    - The problems you are trying to solve
+- Serverless Applications:
+    - Applications that don't require you to provision, maintain, or administer servers. No need to worry about fault tolerance or availability. AWS handles these capabilities for you.
+    - AWS Lambda is an example of a service that runs serverless applications. You can design your architecture to trigger Lambda functions to run your code, you can bypass the need to manage a fleet of servers.
+    - Building your architecture with serverless applications enables your developers to focus on their core product instead of managing and operating servers.
+- Artificial Intelligence:
+    - AWS offers a variety of services powered by AI.
+    - You can perform the following tasks:
+        - Convert speech to text with Amazon Transcribe
+        - Discover patterns in text with Amazon Comprehend
+        - Identify potentially fraudulet online activities with Amazon Fraud Detector
+        - Build voice and text chatbots with Amazon Lex
+- Machine Learning:
+    - Traditional ML development is complex, expensive, time consuming, and error prone. AWS offers Amazon SageMaker to remove the difficult work from the process and empower you to build, train, and deploy ML models quickly.
+    - ML can be used to analyze data, solve complex problems and predict outcomes before they happen.

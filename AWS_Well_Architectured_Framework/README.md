@@ -1,0 +1,25 @@
+# AWS Well-Architectured Framework
+- Helps you understand how to design and operate reliable, secure, efficient and cost-effective systems in the AWS Cloud. 
+- Provide a way for you to consistently measure your architecture against best practices and design principles and identify areas for improvement.
+- Based on the 5 pillars:
+    - Operational Excellence:
+        - The ability to run and monitor systems to deliver business value and to continually improve supporting proceses and procedures.
+        - Design principles for operational excellence in the cloud include performing operations as code, annotating documentation, anticipating failure and frequently making small, reversible changes.
+    - Security:
+        - The ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+        - Apply the following best practices:
+            - Automate security best practices when possible
+            - Apply security at all layers
+            - Protect data in transit and at rest
+    - Reliability:
+        - The ability of a system to do the following:
+            - Recover from infrastructure or service disruptions
+            - Dynamically acquire computing resources to meet demand
+            - Mitigate disruptions such as misconfigurations or transient network issues
+        - Reliability includes testing recovery procedures, scaling horizontally to increase aggregate system availability, and automatically recovering from failure.
+    - Performance Efficiency:
+        - The ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
+        - Evaluating the performance efficiency of your architecture includes experimenting more often, using serverless architectures, and designing systems to be able to go global in minutes.
+    - Cost Optimization:
+        - The ability to run systems to deliver business value at the lowest price point.
+        - Includes adopting a consumption model, analyzing and attributing expenditure, and using managed services to reduce the cost of ownership. 
