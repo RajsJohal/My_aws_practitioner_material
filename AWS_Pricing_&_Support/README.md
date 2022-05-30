@@ -42,6 +42,7 @@
 ## AWS Cost Explorer
 - A tool used to visualize, understand and manage your AWS costs and usage over time. 
 - Includes a default report of the costs and usage for your top five cost-accuring AWS services. You can apply custom filters and group to analyze your data. 
+- Anticipates cost over time
 
 ## AWS Support
 - AWS offers 4 different support plans to help troubleshoot issues, lower costs and efficiently use AWS services. 
@@ -50,7 +51,7 @@
     - Business
     - Enterprise
 
-#### Basuc Support
+#### Basic Support
 - Free for all AWS customers. Includes access to whitepapers, documentation, and support communities. You can also contact AWS for billing questions and service limit increases. 
 - Access to a limited selection of AWS Trusted Advisor checks. Additionally, you can use the AWS Personal Health Dashboard, a tool that provides alerts and remediation guidance when AWS is experiencing events that may affect you. 
 
@@ -74,3 +75,13 @@
 - Primary point of contact at AWS. 
     - They provide guidance, architectural reviews, and ongoing communication with your company as you plan, deploy, and optimize your applications. 
     - Offer expertise across the full range of AWS services. Assist with design solutions that efficiently use mutliple services together through an integrated approach. 
+
+
+## Cost Allocation Tags
+- Tags are labels that are assigned to a AWS resource. 
+- Tags organize resources, cost allocation tags track AWS costs on a detailed level. 
+- AWS uses the cost allocation tags to organize your resource cost on your cost allocation report, to make it easier for you to categorize and track your AWS costs. 
+    - AWS provides two types of cost allocation tags:
+        - AWS Generated Tags: AWS, or AWS Marketplace ISV defines, creates, and applies the AWS generated tags for you.
+        - User-Defined Tags: You define, create and applu user-defined tags.
+    - Both types must be activated by the user serperately before they can appear in Cost Explorer or on a cost allocation report. 

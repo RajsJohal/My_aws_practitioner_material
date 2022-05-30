@@ -26,3 +26,6 @@
     - An overview of AWS risk and compliance
     - An auditing security checklist
 - Additionally, the customer compliance centre includes an auditor learning path. This learning path is designed for individuals in auditing, compliance, and legal roles who want to learn more about how thier internal operations can demonstrate compliance using the AWS Cloud. 
+
+## AWS Control Tower
+- A service for organizations with multiple accounts and teams who are looking for the easiest way to set up their new or existing multi-account AWS environment and govern at scale. With AWS Control Tower, cloud administrators get peace of mind knowing accounts in their organization are compliant with thier established policies. Builders benefit from being able to provision new AWS accounts quickly. 

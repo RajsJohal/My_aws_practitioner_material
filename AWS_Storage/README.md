@@ -132,3 +132,10 @@
 ### Amazon DynamoDB Accelerator
 - In-memory cache for DynamoDB
 - Helps improve response times from single-digit milliseconds to microseconds. 
+
+### AWS Storage Gateway
+- A set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage
+- Use-cases:
+    - Fill your data lake: Store data from specialized on-premises instruments in Amazon Simple Storage and use AWS services for data analysis
+    - Modernize interactive file sharing: Transform on-premises user and group file shares to a hybrid cloud architecture for simplified management and cost reduction. 
+    - Back up data to the cloud: Provide cloud-based backup for on-premises files and database applications for low-cost, virtually unlimited scale.  

@@ -29,3 +29,15 @@
 #### AWS Fargate
 - A serverless compute engine for containers. It works with both ECS and EKS. 
 - Manages server infrastructure for you. Focus more on innovating and developing your applications, and you pay only for the resource that are required to run your containers. 
+
+## AWS Neptune
+- A fast, reliable, fully managed graph database service that makes it easy to build and run applications. 
+- Use-cases:
+    - Build connections between identities
+    - Build knowledge graph applications 
+    - Detect fraud patterns
+    - Make predictions on graph data
+
+## AWS Site-to-Site VPN
+- Provides access to a remote network from your AWS VPC
+- Creates a connection and can be configured to modify traffic routing through the connection.

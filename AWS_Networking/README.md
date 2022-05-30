@@ -43,3 +43,5 @@
 - Security groups perform stateful packet filtering. They remember previous decisions made for incoming packets.
 - When a packet response for that request returns to the instance, the security group remembers your previous request. The security group allows the response to proceed, regardless of inbound security group rules. 
 
+## AWS Global Accelerator
+- A networking service that improves the performance of your users traffic by upto 60% using AWS global network infrastructure. When the internet is congested, AWS Global Accelerator optimizes the path to your application to keep packet loss, jitter and latency consistently low. 
